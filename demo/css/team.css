@@ -1,0 +1,39 @@
+
+.team .swiper-slide:first-child {
+    background: url(../images/team/bg.png) no-repeat center;
+    background-size: cover;
+}
+
+.team .swiper-slide:nth-child(2) {
+    width: auto;
+    max-width: 1140px;
+    background: #fff;
+    display: block;
+}
+
+.team .swiper-slide:nth-child(3) {
+    width: 100%;
+}
+
+.header-img{
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+}
+
+.header-img img{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.header-img p,.header-img span{
+  color: #666;
+  line-height: 1.5em;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+.header-img span{
+  color: #666;
+  font-size: 1em;
+}
